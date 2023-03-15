@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+
+<h1><%= header %> </h1>
+<p><%= content %> </p>
+
+<% if (header === "Home") { %>
+<% for (const value of posts.values()) { %>
+<h2><a href="/posts/<%= lodash.lowerCase(value.title) %>"><%= value.title %></a></h2>
+<p class="truncate"><%= value.content %></p>
+<% } %>
+<div class="center">
+    <a href="/compose"><button class="btn btn-default add-button">+</button></a>
+</div>
+<% } %>
+
+<%- include("partials/footer") %>
