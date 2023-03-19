@@ -1,0 +1,20 @@
+import Avatar from "./Avatar";
+import Detail from "./Detail";
+
+function Card(props) {
+  return (
+    <div className="card">
+      <div className="top">
+        <p>{props.order}</p>
+        <h2 className="name">{props.name}</h2>
+        <Avatar img={props.img} />
+      </div>
+      <div className="bottom">
+        <Detail detail={props.tel} />
+        <Detail detail={props.email} />
+      </div>
+    </div>
+  );
+}
+
+export default Card;

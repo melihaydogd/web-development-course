@@ -58,6 +58,142 @@
             "program": "${workspaceFolder}/EJS_2_Blog-Website-Challange/app.js",
             "runtimeExecutable": "nodemon",
             "cwd": "${workspaceFolder}/EJS_2_Blog-Website-Challange"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Mongoose JS",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Mongoose_2_JS/index.js",
+            "runtimeExecutable": "node",
+            "cwd": "${workspaceFolder}/Mongoose_2_JS"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Security Level 1",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Security_1_JS/app_1.js",
+            "runtimeExecutable": "nodemon",
+            "cwd": "${workspaceFolder}/Security_1_JS"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Security Level 2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Security_1_JS/app_2.js",
+            "runtimeExecutable": "nodemon",
+            "cwd": "${workspaceFolder}/Security_1_JS"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Security Level 3",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Security_1_JS/app_3.js",
+            "runtimeExecutable": "nodemon",
+            "cwd": "${workspaceFolder}/Security_1_JS"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Security Level 4",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Security_1_JS/app_4.js",
+            "runtimeExecutable": "nodemon",
+            "cwd": "${workspaceFolder}/Security_1_JS"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Security Level 5",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Security_1_JS/app_5.js",
+            "runtimeExecutable": "nodemon",
+            "cwd": "${workspaceFolder}/Security_1_JS"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Security Level 6",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Security_1_JS/app_6.js",
+            "runtimeExecutable": "nodemon",
+            "cwd": "${workspaceFolder}/Security_1_JS"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Security App",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/Security_1_JS/app.js",
+            "runtimeExecutable": "nodemon",
+            "cwd": "${workspaceFolder}/Security_1_JS"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "React App 1",
+            "url": "http://localhost:3000",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}/React_1_Components"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "React App 2",
+            "url": "http://localhost:3000",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}/React_2_Props"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "React App 3",
+            "url": "http://localhost:3000",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}/React_3_Practice"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "React App 4",
+            "url": "http://localhost:3000",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}/React_4_useState",
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "React App 5",
+            "url": "http://localhost:3000",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}/React_5_Event"
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "React App 6",
+            "url": "http://localhost:3000",
+            "port": 9222,
+            "webRoot": "${workspaceFolder}/React_6_KeeperApp"
         }
     ]
 }
