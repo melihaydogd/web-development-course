@@ -1,199 +1,182 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [     
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Express",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Express_1_Intro/server.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/Express_1_Intro"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Weather",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/API_1_Weather-Project/app.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/API_1_Weather-Project"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Newsletter",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/API_2_Newsletter-Signup/app.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/API_2_Newsletter-Signup"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Todo",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/EJS_1_Todo-List/app.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/EJS_1_Todo-List"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Blog-Website",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/EJS_2_Blog-Website-Challange/app.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/EJS_2_Blog-Website-Challange"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Mongoose JS",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Mongoose_2_JS/index.js",
-            "runtimeExecutable": "node",
-            "cwd": "${workspaceFolder}/Mongoose_2_JS"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Security Level 1",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Security_1_JS/app_1.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/Security_1_JS"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Security Level 2",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Security_1_JS/app_2.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/Security_1_JS"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Security Level 3",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Security_1_JS/app_3.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/Security_1_JS"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Security Level 4",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Security_1_JS/app_4.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/Security_1_JS"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Security Level 5",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Security_1_JS/app_5.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/Security_1_JS"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Security Level 6",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Security_1_JS/app_6.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/Security_1_JS"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Security App",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/Security_1_JS/app.js",
-            "runtimeExecutable": "nodemon",
-            "cwd": "${workspaceFolder}/Security_1_JS"
-        },
-        {
-            "type": "chrome",
-            "request": "attach",
-            "name": "React App 1",
-            "url": "http://localhost:3000",
-            "port": 9222,
-            "webRoot": "${workspaceFolder}/React_1_Components"
-        },
-        {
-            "type": "chrome",
-            "request": "attach",
-            "name": "React App 2",
-            "url": "http://localhost:3000",
-            "port": 9222,
-            "webRoot": "${workspaceFolder}/React_2_Props"
-        },
-        {
-            "type": "chrome",
-            "request": "attach",
-            "name": "React App 3",
-            "url": "http://localhost:3000",
-            "port": 9222,
-            "webRoot": "${workspaceFolder}/React_3_Practice"
-        },
-        {
-            "type": "chrome",
-            "request": "attach",
-            "name": "React App 4",
-            "url": "http://localhost:3000",
-            "port": 9222,
-            "webRoot": "${workspaceFolder}/React_4_useState",
-        },
-        {
-            "type": "chrome",
-            "request": "attach",
-            "name": "React App 5",
-            "url": "http://localhost:3000",
-            "port": 9222,
-            "webRoot": "${workspaceFolder}/React_5_Event"
-        },
-        {
-            "type": "chrome",
-            "request": "attach",
-            "name": "React App 6",
-            "url": "http://localhost:3000",
-            "port": 9222,
-            "webRoot": "${workspaceFolder}/React_6_KeeperApp"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Express",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Express_1_Intro/server.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/Express_1_Intro"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Weather",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/API_1_Weather-Project/app.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/API_1_Weather-Project"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Newsletter",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/API_2_Newsletter-Signup/app.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/API_2_Newsletter-Signup"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Todo",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/EJS_1_Todo-List/app.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/EJS_1_Todo-List"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Blog-Website",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/EJS_2_Blog-Website-Challange/app.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/EJS_2_Blog-Website-Challange"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Mongoose",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Mongoose_1_Intro/index.js",
+      "runtimeExecutable": "node",
+      "cwd": "${workspaceFolder}/Mongoose_1_Intro"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Security Level 1",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Security_1_Intro/app_1.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/Security_1_Intro"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Security Level 2",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Security_1_Intro/app_2.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/Security_1_Intro"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Security Level 3",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Security_1_Intro/app_3.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/Security_1_Intro"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Security Level 4",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Security_1_Intro/app_4.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/Security_1_Intro"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Security Level 5",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Security_1_Intro/app_5.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/Security_1_Intro"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Security Level 6",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Security_1_Intro/app_6.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/Security_1_Intro"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Security App",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Security_1_Intro/app.js",
+      "runtimeExecutable": "nodemon",
+      "cwd": "${workspaceFolder}/Security_1_Intro"
+    },
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "React App 1",
+      "url": "http://localhost:3000",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/React_1_Components"
+    },
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "React App 2",
+      "url": "http://localhost:3000",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/React_2_Props"
+    },
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "React App 3",
+      "url": "http://localhost:3000",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/React_3_Practice"
+    },
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "React App 4",
+      "url": "http://localhost:3000",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/React_4_useState"
+    },
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "React App 5",
+      "url": "http://localhost:3000",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/React_5_Event"
+    },
+    {
+      "type": "chrome",
+      "request": "attach",
+      "name": "React App 6",
+      "url": "http://localhost:3000",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/React_6_KeeperApp"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "TypeScript",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/TypeScript_1_Intro/src/index.ts",
+      "preLaunchTask": "tsc: build - TypeScript_1_Intro/tsconfig.json",
+      "cwd": "${workspaceFolder}/TypeScript_1_Intro"
+    }
+  ]
 }
